@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shifumi</title>
   <script defer src = "shifumi.js"> </script>
  
-</head>
-<body>
-  <main >
+  </head>
+  <body>
+
     <h1>Shifumi</h1>
- 
+    <main >
+        <button class="btnj" type="button">Pierre</button>
+        <button  class="btnj" type="button">Feuille</button>
+        <button  class="btnj" type="button">Ciseaux</button>
+   </main>
+   <section id="affichage" aria-live="polite"></section>
     <section>
-      <div >
-        <button class="btnj">Pierre</button>
-        <button  class="btnj">Feuille</button>
-        <button  class="btnj">Ciseaux</button>
-      </div>
- 
-      <div>
-        <span id="win">0 victoire</p>
+        <p id="win">0 victoire</p>
         <p id="draw">0 égalité</p>
         <p id="lose">0 défaite</p>
-      </div>
- 
-      <button id="reset">Réinitialiser le score</button>
-      <div id="log" aria-live="polite"></div>
+      <button id="réinitialise" type="button">Réinitialiser le score</button>
     </section>
-  </main>
+  </body>
 </html>
  
